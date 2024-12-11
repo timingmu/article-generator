@@ -5,13 +5,16 @@ config.py
 # Python
 __pycache__/
 *.py[cod]
-*.class
+*$py.class
+
 # 系统文件
 .DS_Store
 Thumbs.db
 
 # 输出目录
 topic_generated/
-analysis_results/
 article/
-characteristics/
+analysis_results/
+
+# 保留 writing_styles 目录
+!examples/writing_styles/*.json
