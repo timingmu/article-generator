@@ -1,0 +1,17 @@
+# 敏感配置文件
+config.py
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 输出目录
+topic_generated/
+analysis_results/
+article/
+characteristics/
